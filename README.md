@@ -1,4 +1,4 @@
-# typescript-variant
+# ts-micro-variant
 
 No frills polymorphic variants for typescript. 
 
