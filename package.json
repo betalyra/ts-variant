@@ -2,9 +2,11 @@
   "name": "@betalyra/ts-variant",
   "version": "1.0.0",
   "description": "Polymorphic variants for typescript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "prepublish": "tsc"
   },
   "keywords": [
     "polymorphic variants",
